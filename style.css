@@ -1,10 +1,8 @@
 body {
     /* margin: 0; */
-    background-image: linear-gradient(to left, #434343 0%, black 100%);
+    background-color: #011320;
     color: white;
     font-family: monospace;
-    height: 100vh;
-    
 }
 
 @font-face {
@@ -66,6 +64,10 @@ table , th, tr, td{
     padding-inline: 1rem;
     padding-block: 0.3rem;
     cursor: pointer;
+    margin: 0.5em;
+    border-radius: 8px;
+    background-color: #061d2e;
+    color: white;
 }
 
 .add-book-btn {

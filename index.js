@@ -45,7 +45,7 @@ function addBookToLibrary(title, author, pages, isRead) {
   displayBooks()
 }
 
-addBookToLibrary("jojo2", "dt89", 3223, true)
+addBookToLibrary("Tamal Sarkar", "dt89", 3223, true)
 const book2 = new Book("test", "test", 3223, true)
 
 function displayBooks() {

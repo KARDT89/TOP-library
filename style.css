@@ -1,22 +1,73 @@
-* {
+body {
     /* margin: 0; */
-    background-color: rgb(58, 56, 56);
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
     color: white;
+    font-family: monospace;
+    height: 100vh;
+    
+}
+
+@font-face {
+  font-family: dt89;
+  src: url(./Slope\ Opera.otf);
 }
 
 form {
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
+    border: 0;
+    font-size: 1rem;
+    color: white;
 }
 form > span {
     padding: 0.5rem;
     display: flex;
     justify-content: baseline;
+    align-items: center;
+    gap: 1rem;
+}
+span > input {
+    padding: 0.2em;
+    
+}
+.form-btn , .add-book-btn{
+    padding-inline: 2rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 10px;
 }
 
 table , th, tr, td{
     margin: auto;
     border: 1px solid white;
     padding: 0.5rem;
+}
+
+.card-container {
+    margin: 2rem;
+    display: flex;
+    /* background-color: black; */
+    gap: 1rem;
+}
+
+.card {
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    gap: 2rem;
+}
+
+.card > button {
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    cursor: pointer;
+}
+
+.add-book-btn {
+    margin-left: 2rem;
 }

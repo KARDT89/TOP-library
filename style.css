@@ -71,5 +71,25 @@ table , th, tr, td{
 }
 
 .add-book-btn {
+    background-color: #061d2e;
     margin-left: 2rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+}
+
+.add-book-btn:hover {
+    background-color:#31af37;
+    transition: 0.2s;
+}
+
+.delete-btn:hover{
+    background-color:#b11818;
+    transition: 0.2s;
+}
+
+.toggle-btn:hover{
+    background-color:#ebebeb;
+    color: black;
+    transition: 0.2s;
 }

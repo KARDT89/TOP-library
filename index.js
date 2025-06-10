@@ -66,6 +66,8 @@ function displayBooks() {
     toggleButton.innerText = "Toggle"
     deleteButton.innerText = "Delete"
     deleteButton.setAttribute('data-id', book.id)
+    deleteButton.classList.add("delete-btn")
+    toggleButton.classList.add("toggle-btn")
     toggleButton.addEventListener("click", () => toggleBtn(book.id))
     deleteButton.addEventListener("click", () => deleteBtn(book.id))
     card.appendChild(title)

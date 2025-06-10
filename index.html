@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TOP-Library</title>
+  </head>
+  <body>
+    <div>
+      <dialog>
+        <form id="library-form" action="">
+          <span>
+            <label for="title">Title: </label>
+            <input
+              name="title"
+              id="title"
+              placeholder="Enter book title"
+              type="text"
+              autofocus
+            />
+          </span>
+          <span>
+            <label for="author">Author: </label>
+            <input
+              name="author"
+              id="author"
+              placeholder="Enter Author name"
+              type="text"
+            />
+          </span>
+          <span>
+            <label for="pages">Pages: </label>
+            <input
+              name="pages"
+              placeholder="Enter number of pages"
+              type="number"
+            />
+          </span>
+
+          <span>
+            <label for="isRead">Read </label>
+            <input
+              name="isRead"
+              placeholder="Enter book title"
+              type="checkbox"
+            />
+          </span>
+          <span>
+            <button id="close-btn" type="reset">Cancel</button>
+            <button type="submit">Submit</button>
+          </span>
+        </form>
+      </dialog>
+      <button>Add Books</button>
+    </div>
+    <div class="card-container"></div>
+  </body>
+  <script src="index.js"></script>
+</html>

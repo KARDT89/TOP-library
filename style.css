@@ -1,0 +1,22 @@
+* {
+    /* margin: 0; */
+    background-color: rgb(58, 56, 56);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+form > span {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: baseline;
+}
+
+table , th, tr, td{
+    margin: auto;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
